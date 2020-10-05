@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 40% 50% 10%; 
+    grid-template-rows: 1fr auto;
+
+}
+
+
+
+.header { 
+    display:flex;
+    background-color:#63B3ED ;
+    color:#fff;
+    padding: 15px 20px;
+    justify-content: center;
+    grid-row: 1;
+    grid-column: 1/4;
+    margin-bottom: 30px;
+}
+.header1{
+    font-size: px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.blog1{
+    float:right;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+    width: 250px;
+    height: 200px;
+    
+}
+.blog2{
+    float:left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px;
+    height: 200px;
+    
+}
+
+.blogone{
+    font-size: 32px;
+    color: #48BB78;
+}
+.blogtwo{
+    font-size: 32px;
+    color: #48BB78;
+}
+.date{
+    color:#718096;
+}
+.dateone{
+    color:#718096;
+}
+  
+
+
+.contact{
+    display: flex;
+    border-bottom: 3px black solid; 
+    flex-flow: column;
+    padding: 25px 10px;
+    margin: 10px;
+}
+
+
+.SM{
+    color:#48BB78;
+}
+
+.arc{
+    color:#48BB78;
+}
+
+.abt{
+    color: #000000;
+    font: Georgia,'Times New Roman', Times, serif;
+    background-color: #E2E8F0;
+    padding: 10px 5px;
+}
+
+/*.sidebar{
+    background-color: #FFF4FD; 
+    /*grid-column: 1/4;
+    align-content: right;
+    text-align: left;
+    right: 0; 
+    width: 250px;
+    width: 200px;
+
+} */
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #FFF4FD;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.bio{
+    border-bottom: 3px grey solid;
+    padding-bottom: 40px;
+}
+
+.exp{
+    border-bottom: 3px grey solid;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}*/
+
+
+.socialM{
+    display: flex;
+    color:#4299E1;
+    padding: 10px 5px;
+    margin: 10px;
+    flex-flow: column;
+}
+
+
+
+.Archive{
+    display: flex;
+    color:#4299E1;
+    padding: 10px 5px;
+    margin: 10px;
+    flex-flow: column;
+}
+.footer{
+    grid-area: footer;
+    background-color: #2C5282;
+    color: #FFFFFF;
+  }
+
+.help{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.img-1{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.mainContent{
+    grid-column: 1/3;
+}
